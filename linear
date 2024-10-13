@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+</head>
+<body>
+  <canvas id="myCanvas"></canvas>
+  <script>
+    function setup() {
+      createCanvas(400, 400); // Create a canvas
+      background(220); // Set a background color
+      fill(255, 0, 0); // Set fill color to red
+      rect(76, 45, 250, 300); // Draw the face
+      rect(126, 250, 152, 60); // Draw the mouth
+      rect(140, 150, 30, 30); //draw the left eye
+      rect(240, 150, 30, 30); //draw the right eye
+      rect(175, 345, 50, 50); //the neck
+      line(140, 129, 270, 129); //unibrow
+
+    }
+  </script>
+</body>
+</html>
